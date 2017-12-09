@@ -15,7 +15,7 @@ Example creation usage:
 Example creation output:
 ------------------------
 
-`{ "ori_url": "http://google.com", "short_url": "https://plain-scraper.glitch.me/2"`
+`{ "ori_url": "http://google.com", "short_url": "https://plain-scraper.glitch.me/2" }`
 
 Usage:
 ------
