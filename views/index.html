@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Welcome to Glitch!</title>
+	<meta name="description" content="A cool thing made with Glitch">
+	<link id="favicon" rel="icon" href="https://glitch.com/edit/favicon-app.ico" type="image/x-icon">
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="/style.css">
+</head>
+<body>
+	<header>
+		<h1>URL Shortener Microservice</h1>
+	</header>
+
+	<main>
+
+
+		<p class="bold">
+			User stories:
+		</p>
+
+		- I can pass a URL as a parameter and I will receive a shortened URL in the JSON response.<br/>
+		- When I visit that shortened URL, it will redirect me to my original link.<br/>
+		<p class="bold">
+      Example creation usage:
+    </p>
+
+		<code>https://plain-scraper.glitch.me/new/https://google.com</code> <br/>
+		<code>https://plain-scraper.glitch.me/new/http://www.freecodecamp.org</code>
+
+		<p class="bold">
+			Example creation output:
+		</p>
+
+		<code>{ "ori_url": "http://google.com", "short_url": "https://plain-scraper.glitch.me/2" }</code>
+
+		<p class="bold">Usage:</p>
+
+		<code>https://plain-scraper.glitch.me/2</code>
+
+		<p class="bold">Will redirect to:</p>
+
+		<code>https://google.com</code>
+
+	</main>
+
+	<footer>
+		<a href="https://glitch.com">
+			Remix this in Glitch
+		</a>
+	</footer>
+
+</body>
+</html>
+	
